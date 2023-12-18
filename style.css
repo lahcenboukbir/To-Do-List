@@ -118,6 +118,7 @@ ul li.checked::before {
     border: none;
 }
 
+/* Styling for spans inside list items */
 ul li span {
     position: absolute;
     width: 40px;
@@ -131,6 +132,7 @@ ul li span {
     border-radius: 50%;
 }
 
+/* Hover effect for spans inside list items */
 ul li span:hover {
     background-color: #edeef0;
 }
