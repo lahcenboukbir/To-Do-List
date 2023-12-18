@@ -1,0 +1,136 @@
+/* Importing the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Resetting default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for a container element */
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    padding: 10px;
+}
+
+/* Styling for a to-do list */
+.todo_list_app {
+    width: 100%;
+    max-width: 540px;
+    background-color: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+/* Styling for the heading of the to-do list */
+.todo_list_app h1 {
+    color: #002765;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* Cursor style indicating interactivity */
+    user-select: none;
+    /* Disable text selection */
+}
+
+/* Styling for the icon inside the heading of the to-do list */
+.todo_list_app h1 i {
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: revert;
+}
+
+/* Styling for a flex container */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    background-color: #edeef0;
+}
+
+/* Styling for input elements */
+.row input {
+    background-color: transparent; /* Transparent background */
+    outline: none; /* Remove outline */
+    border: none; /* Remove border */
+    flex: 1; /* Take up remaining space in the flex container */
+    padding: 10px;
+    font-weight: 14px;
+}
+
+/* Styling for button elements */
+.row button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: #8BC6EC;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 40px;
+}
+
+/* Styling for list items */
+ul li {
+    position: relative;
+    list-style-type: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Styling for a pseudo-element (::before) of list items */
+ul li::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 14px;
+    left: 10px;
+    border: solid 1px grey;
+}
+
+/* Styling for checked list items */
+ul li.checked {
+    color: #555;
+    text-decoration-line: line-through;
+}
+
+/* Styling for the pseudo-element of checked list items */
+ul li.checked::before {
+    content: "✔";
+    background-color: greeb;
+    text-align: center;
+    background-color: #8BC6EC;
+    color: white;
+    font-size: 13px;
+    border: none;
+}
+
+ul li span {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    right: 0;
+    top: 5px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover {
+    background-color: #edeef0;
+}
