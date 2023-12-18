@@ -10,6 +10,21 @@ A simple and functional to-do list application built with HTML, CSS, and JavaScr
 - Delete tasks.
 - Data persistence using local storage.
 
+## Screenshots
+
+Laptop:
+<br>
+<img width="960" alt="laptop" src="https://github.com/lahcenboukbir/To-Do-List/assets/98537666/53c76bba-ebad-461b-bf56-2537c97eaf55">
+
+Nest Hub Max:
+<br>
+<img width="575" alt="nest hub max" src="https://github.com/lahcenboukbir/To-Do-List/assets/98537666/1ed916ba-451c-40a0-9b15-1db4dda518e7">
+
+Iphone 14 Pro Max:
+<br>
+<img width="161" alt="iphone 14 pro max" src="https://github.com/lahcenboukbir/To-Do-List/assets/98537666/c1820805-1afb-4538-92af-3d8e5e02f33c">
+
+
 ## Usage
 
 1. Clone the repository:
@@ -35,7 +50,7 @@ A simple and functional to-do list application built with HTML, CSS, and JavaScr
 
 ## Dependencies
 
-- [Font Awesome 6.5.1](https://fontawesome.com/): Used for the delete icon.
+- [Font Awesome 6.5.1](https://fontawesome.com/):  Used for styling icons, including the to-do list icon.
 
 ## How to Contribute
 
