@@ -30,7 +30,7 @@ Iphone 14 Pro Max:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/lahcenboukbir/To-Do-List.git
+   git clone https://github.com/yourusername/project-name.git
    
    ```
 
