@@ -1,16 +1,34 @@
-
 # To-Do List App
 
-A simple and functional to-do list application built with HTML, CSS, and JavaScript.
+## 📝 Overview
+This is a simple To-Do List application built with HTML, CSS, and JavaScript. It allows users to add, mark as completed, and delete tasks. The app stores the task list in the browser's local storage, ensuring tasks persist even after a page reload.
 
-## Features
+## 🚀 Features
+- **Add Tasks:** Easily add new tasks to the list.
+- **Mark as Completed:** Click on a task to mark it as completed (strikes through the text).
+- **Delete Tasks:** Remove tasks from the list by clicking on the delete button (×).
+- **Persistent Data:** The task list is saved in the browser's local storage.
 
-- Add tasks to the to-do list.
-- Mark tasks as completed.
-- Delete tasks.
-- Data persistence using local storage.
+## ⚙️ Installation
 
-## Screenshots
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/lahcenboukbir/To-Do-List.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd todo-list
+   ```
+3. Open index.html in your preferred browser to run the app.
+
+## 💻 Technologies Used
+
+- **HTML:** Structure of the To-Do list app.
+- **CSS:** Styles and layout for the app.
+- **JavaScript:** Functionality for adding, completing, and deleting tasks, and saving data to local storage.
+- **Font Awesome:** Icons for better user interface.
+
+## 📱 Screenshots
 
 Laptop:
 <br>
@@ -23,39 +41,3 @@ Nest Hub Max:
 Iphone 14 Pro Max:
 <br>
 <img width="161" alt="iphone 14 pro max" src="https://github.com/lahcenboukbir/To-Do-List/assets/98537666/c1820805-1afb-4538-92af-3d8e5e02f33c">
-
-
-## Usage
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/project-name.git
-   
-   ```
-
-2. Open `index.html` in your web browser.
-
-3. Use the input field to add tasks, click the "Add" button, or press "Enter" to add a task.
-
-4. Click on a task to mark it as completed or click the delete icon to remove it.
-
-5. Tasks are stored locally, so they will persist even if you close the browser.
-
-## Project Structure
-
-- `index.html`: HTML file containing the structure of the to-do list.
-- `style.css`: CSS file containing styles for the to-do list.
-- `script.js`: JavaScript file containing the logic for adding, marking, and deleting tasks.
-
-## Dependencies
-
-- [Font Awesome 6.5.1](https://fontawesome.com/):  Used for styling icons, including the to-do list icon.
-
-## How to Contribute
-
-If you'd like to contribute to this project, feel free to open an issue or create a pull request.
-
-## Author
-
-BOUKBIR Lahcen
